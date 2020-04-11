@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var plusButton: UIButton!
     @IBOutlet weak var equlBatton: UIButton!
@@ -20,8 +19,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var clearButton: UIButton!
     
     private var model: ViewModel = ViewModel()
-    
-    private var needUpdateText = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
